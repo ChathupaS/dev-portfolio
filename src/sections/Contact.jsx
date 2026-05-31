@@ -25,8 +25,9 @@ const SOCIALS = [
 export default function Contact() {
   return (
     <section id="contact" className="py-24 bg-white/1.5">
-      <div className="max-w-2xl mx-auto px-6 text-center">
+      <div className="max-w-6xl mx-auto px-6 text-center">
         <motion.div
+          className="max-w-2xl mx-auto"
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}

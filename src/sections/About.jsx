@@ -27,7 +27,7 @@ function fadeUp(delay = 0) {
 export default function About() {
   return (
     <section id="about" className="py-24">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div {...fadeUp()}>
           <span className="text-xs font-semibold tracking-widest text-cyan-400 uppercase">
             About Me

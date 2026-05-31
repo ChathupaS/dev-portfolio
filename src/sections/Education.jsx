@@ -24,7 +24,7 @@ const EDUCATION = [
 export default function Education() {
   return (
     <section id="education" className="py-24 bg-white/1.5">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}

@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative h-screen flex items-center justify-center overflow-hidden"
+      className="relative h-screen flex items-start justify-center pt-28 md:items-center md:pt-0 overflow-hidden"
     >
       <ParticleField />
 
@@ -127,7 +127,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 2.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2"
       >
         <span className="text-xs text-slate-600 tracking-widest uppercase">
           Scroll
