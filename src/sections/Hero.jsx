@@ -13,7 +13,7 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-linear-to-b from-transparent via-transparent to-[#050510] pointer-events-none" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(6,182,212,0.06)_0%,transparent_70%)] pointer-events-none" />
-      <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12 md:gap-20">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-6 md:gap-20">
         <div className="flex-1 space-y-5 text-center md:text-left">
           <motion.div
             initial={{ opacity: 0, y: 16 }}
@@ -89,7 +89,7 @@ export default function Hero() {
           <div className="absolute inset-0 blur-3xl bg-linear-to-br from-cyan-500/40 to-violet-600/40 scale-150 rounded-full" />
 
           <div className="relative rounded-3xl bg-linear-to-br from-white/7 to-white/2 border border-white/10 p-4 shadow-2xl shadow-cyan-500/10">
-            <div className="relative w-56 h-56 md:w-72 md:h-72">
+            <div className="relative w-44 h-44 md:w-72 md:h-72">
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
