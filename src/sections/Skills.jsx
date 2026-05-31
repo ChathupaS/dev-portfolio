@@ -18,8 +18,8 @@ const CATEGORIES = [
     skills: [
       { name: "Java / Spring Boot", level: 85 },
       { name: "Node.js / Express.js", level: 82 },
-      { name: "NestJS", level: 76 },
-      { name: "Python / FastAPI", level: 78 },
+      { name: "NestJS", level: 70 },
+      { name: "Python / FastAPI", level: 70 },
     ],
   },
   {
@@ -36,9 +36,9 @@ const CATEGORIES = [
     title: "AI & LLM",
     color: "from-pink-500 to-rose-500",
     skills: [
-      { name: "LangChain", level: 72 },
-      { name: "RAG Pipelines", level: 68 },
-      { name: "Vector Databases", level: 70 },
+      { name: "LangChain", level: 65 },
+      { name: "RAG Pipelines", level: 60 },
+      { name: "Vector Databases", level: 60 },
       { name: "LangSmith", level: 65 },
     ],
   },

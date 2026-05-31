@@ -10,30 +10,50 @@ const PROJECTS = [
     accent: "from-cyan-500 to-sky-500",
     badge: "Team Lead",
     github: "#",
-    live: "#",
+    live: null,
   },
   {
     title: "Sri Learn Academy LMS",
     description:
       "Full-stack Learning Management System enabling educators to publish courses and students to track progress. Features Clerk authentication, Stripe payments, and a fully responsive UI.",
     tech: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Stripe"],
-    accent: "from-violet-500 to-purple-500",
+    accent: "from-cyan-500 to-sky-500",
     badge: null,
-    github: "#",
-    live: "#",
+    github: "https://github.com/ChathupaS/SriLearnAcademy",
+    live: null,
   },
   {
     title: "Sri Lankan Vehicle Valuator",
     description:
       "Full-stack ML valuation platform with a custom Python web scraper and an XGBoost model (R² = 0.83). SHAP-based explainability provides transparent, real-time price predictions.",
     tech: ["Python", "FastAPI", "React.js", "XGBoost", "SHAP"],
-    accent: "from-emerald-500 to-teal-500",
+    accent: "from-cyan-500 to-sky-500",
     badge: null,
-    github: "#",
-    live: "#",
+    github: "https://github.com/ChathupaS/Sri-Lankan-Used-Vehicle-Valuation",
+    live: null,
   },
   {
-    title: "Project Atlas — FPGA DL Accelerator",
+    title: "SL Tourism AI - Travel Planner",
+    description:
+      "AI-powered Sri Lanka travel planner that generates personalized itineraries using Retrieval-Augmented Generation (RAG) and ChromaDB for context-aware recommendations, with a React frontend.",
+    tech: ["React", "Python", "RAG", "ChromaDB"],
+    accent: "from-emerald-500 to-cyan-500",
+    badge: null,
+    github: "https://github.com/ChathupaS/sl-tourism-ai",
+    live: null,
+  },
+  {
+    title: "Automated Beverage Mixer",
+    description:
+      "Co-engineered a automated beverage mixer offering pre-programmed and custom drinks, featuring spill alerts, cup detection, and water level monitoring.",
+    tech: ["Arduino"],
+    accent: "from-orange-500 to-amber-500",
+    badge: "Ongoing",
+    github: "https://github.com/ChathupaS/AutomatedBeverageMixer",
+    live: null,
+  },
+  {
+    title: "Project Atlas - FPGA DL Accelerator",
     description:
       "Co-developing a reconfigurable FPGA accelerator for real-time deep learning inference on IoT edge devices, with dynamic memory pooling to virtually fold large models onto constrained hardware.",
     tech: ["FPGA", "Deep Learning", "IoT", "Hardware Design"],

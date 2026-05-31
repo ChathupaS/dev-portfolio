@@ -4,6 +4,7 @@ const TECH = [
   "Java",
   "Spring Boot",
   "React.js",
+  "React Native",
   "TypeScript",
   "Node.js",
   "NestJS",
@@ -13,6 +14,11 @@ const TECH = [
   "MongoDB",
   "AWS",
   "Tailwind CSS",
+  "Nativewind CSS",
+  "LangChain",
+  "LangSmith",
+  "RAG",
+  "Vector Databases",
 ];
 
 function fadeUp(delay = 0) {
@@ -46,22 +52,26 @@ export default function About() {
           className="space-y-5 text-slate-400 leading-relaxed text-[15px]"
         >
           <p>
-            Hi — I'm Chathupa, an IT undergraduate at the University of Moratuwa
-            (Dean's List) with a strong foundation in Java and Object-Oriented
-            Programming. I build robust, scalable applications used in real
-            production environments.
+            Hi! I'm Chathupa, an IT undergraduate at the University of Moratuwa
+            with a strong foundation in Java and Object-Oriented Programming. I
+            build robust, scalable applications used in real production
+            environments.
           </p>
+
           <p>
-            On the backend I work with{" "}
-            <strong className="text-slate-200">Java / Spring Boot</strong> and{" "}
-            <strong className="text-slate-200">Node.js / NestJS</strong>,
-            designing RESTful APIs and managing database migrations with
-            Liquibase. On the frontend I craft responsive interfaces with{" "}
-            <strong className="text-slate-200">React.js</strong> and Tailwind
-            CSS, backed by PostgreSQL, MySQL, and MongoDB.
+            On the backend I work with
+            <strong className="text-slate-200"> Java / Spring Boot</strong> and
+            <strong className="text-slate-200"> Node.js / NestJS</strong>,
+            designing RESTful APIs. On the frontend I craft responsive
+            interfaces with
+            <strong className="text-slate-200"> React.js</strong> and Tailwind
+            CSS, while also developing cross-platform mobile applications using
+            <strong className="text-slate-200"> React Native</strong>. My work
+            is backed by PostgreSQL, MySQL, and MongoDB.
           </p>
+
           <p>
-            I've led teams in hackathons — winning three championships — and I'm
+            I've led teams in hackathons, winning three championships, and I'm
             currently co-developing an FPGA deep learning accelerator for IoT
             edge devices as an ongoing research project.
           </p>
